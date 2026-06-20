@@ -6,7 +6,7 @@
 (function() {
     const config = window.AdFlow || {};
     const apiKey = config.apiKey || 'Твой_ключ';
-    const apiUrl = config.apiUrl || 'http://144.31.199.202:5000/api/ad/html';
+    const apiUrl = config.apiUrl || 'https://ad-flow.gh.srv.us/api/ad/html';
     const containerId = config.containerId || 'adflow-ad';
 
     function init() {
